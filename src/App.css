@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaf0f8;
+}
+
+.container {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.container h1 {
+    color: #2563eb;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.fiche {
+    background-color: white;
+    width: 550px;
+    max-width: 100%;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+.photo {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    objet-fit: cover;
+    display: block;
+    margin: 0 auto 20px;
+    boorder: 4px solid #2563eb;
+}
+
+
+.fiche p {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 18px;
+    line-height: 1.5;
+}
+
+.fiche strong {
+    color: #1e40af;
+}
+.btn-contact {
+    display: block;
+    width: 150px;
+    margin: 25px auto 0;
+    padding: 12px;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.btn-contact:hover {
+    background-color: #1e40af;
+}
