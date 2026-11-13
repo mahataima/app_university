@@ -1,73 +1,89 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #eaf0f8;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
 }
 
-.container {
-    text-align: center;
-    padding: 40px 20px;
+/* Header */
+
+header {
+  text-align: center;
+  background-color: white;
+  padding: 25px;
 }
 
-.container h1 {
-    color: #2563eb;
-    font-size: 30px;
-    margin-bottom: 30px;
+header h1 {
+  color: #39718c;
+  font-size: 32px;
 }
 
-.fiche {
-    background-color: white;
-    width: 550px;
-    max-width: 100%;
-    margin: auto;
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    text-align: left;
-}
-.photo {
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-    objet-fit: cover;
-    display: block;
-    margin: 0 auto 20px;
-    boorder: 4px solid #2563eb;
+header p {
+  color: gray;
+  margin-top: 8px;
 }
 
+/* Navbar */
 
-.fiche p {
-    color: #333;
-    font-size: 16px;
-    margin-bottom: 18px;
-    line-height: 1.5;
+nav {
+  background-color: #68b2ee;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
 }
 
-.fiche strong {
-    color: #1e40af;
-}
-.btn-contact {
-    display: block;
-    width: 150px;
-    margin: 25px auto 0;
-    padding: 12px;
-    background-color: #2563eb;
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    border-radius: 8px;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: 0.3s;
+nav a {
+  color: white;
+  text-decoration: none;
 }
 
+/* Students */
 
-.btn-contact:hover {
-    background-color: #1e40af;
+.students-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding: 30px;
+}
+
+.student-card {
+  background-color: white;
+  width: 300px;
+  padding: 25px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.student-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.student-card h2 {
+  color: #68b2ee;
+  font-size: 25px;
+  margin: 15px 0;
+}
+
+.student-card p {
+  color: #666;
+  margin: 10px 0;
+}
+
+/* Footer */
+
+footer {
+  background-color: #68b2ee;
+  color: white;
+  text-align: center;
+  padding: 20px;
 }
