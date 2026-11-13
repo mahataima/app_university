@@ -1,89 +1,83 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f2f2f2;
+.app {
+  min-height: 100vh;
 }
-
-/* Header */
 
 header {
-  text-align: center;
-  background-color: white;
-  padding: 25px;
-}
-
-header h1 {
-  color: #39718c;
-  font-size: 32px;
-}
-
-header p {
-  color: gray;
-  margin-top: 8px;
-}
-
-/* Navbar */
-
-nav {
-  background-color: #68b2ee;
-  padding: 12px;
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-}
-
-/* Students */
-
-.students-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 25px;
-  padding: 30px;
-}
-
-.student-card {
-  background-color: white;
-  width: 300px;
-  padding: 25px;
-  border-radius: 10px;
-  text-align: center;
-  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
-}
-
-.student-card img {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  object-fit: cover;
-}
-
-.student-card h2 {
-  color: #68b2ee;
-  font-size: 25px;
-  margin: 15px 0;
-}
-
-.student-card p {
-  color: #666;
-  margin: 10px 0;
-}
-
-/* Footer */
-
-footer {
-  background-color: #68b2ee;
+  background-color: #2563eb;
   color: white;
   text-align: center;
   padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 15px;
+  background-color: #dbeafe;
+}
+
+nav a {
+  text-decoration: none;
+  color: #1e3a8a;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+}
+
+main h1 {
+  text-align: center;
+}
+
+.recherche {
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.recherche input {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.students-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.student-card {
+  width: 250px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.student-card button {
+  margin: 5px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+
+.student-card button:hover {
+  background-color: #333;
+}
+
+footer {
+  margin-top: 30px;
+  padding: 20px;
+  text-align: center;
+  background-color: #dbeafe;
 }

@@ -1,10 +1,10 @@
 
 function Navbar() {
   return (
-    <nav className="navbar">
-      <a href="#accueil">Accueil</a>
-      <a href="#etudiants">Étudiants</a>
-      <a href="#contact">Contact</a>
+    <nav>
+      <a href="#">Accueil</a>
+      <a href="#students">Étudiants</a>
+      <a href="#form">Ajouter</a>
     </nav>
   );
 }
