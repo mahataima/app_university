@@ -141,7 +141,7 @@ function StudentForm({ ajouterEtudiant }) {
       />
 
       {image && (
-        <img src={image} alt="Photo étudiant" width="100" />
+        <img src={image} alt="Photo étudiant" width="100" height="150" border-radius="50%" object-fit="cover" />
       )}
 
       <button type="submit">Ajouter</button>

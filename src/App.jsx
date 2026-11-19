@@ -4,8 +4,10 @@ import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import StudentCard from "./components/StudentCard";
 import StudentForm from "./components/StudentForm";
+import photo from "./assets/tofla.png";
 import Footer from "./components/Footer";
 import "./App.css";
+
 
 function App() {
   const [etudiants, setEtudiants] = useState([
@@ -15,23 +17,26 @@ function App() {
       prenom: "Maha",
       filiere: "GLSI",
       ville: "Mahdia",
-      email: "maha@example.com"
+      email: "maha@example.com",
+      image: photo,
     },
     {
       id: 2,
-      nom: "Boubaker",
-      prenom: "Slim",
+      nom: "Nour",
+      prenom: "Nahali",
       filiere: "GLSI",
       ville: "Monastir",
-      email: "slim@example.com"
+      email: "nahali@example.com",
+      image: photo,
     },
     {
       id: 3,
-      nom: "Trabelsi",
-      prenom: "Sarra",
+      nom: "Imen",
+      prenom: "Taima",
       filiere: "GLSI",
       ville: "Sousse",
-      email: "sarra@example.com"
+      email: "imen@example.com",
+      image: photo,
     }
   ]);
 
